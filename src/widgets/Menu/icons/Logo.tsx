@@ -6,8 +6,5 @@ interface LogoProps extends SvgProps {
   isDark: boolean;
 }
 
-const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
-  const textColor = isDark ? "#FFFFFF" : "#000000";
-};
 
 export default Logo;
