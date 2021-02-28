@@ -7,4 +7,4 @@ interface LogoProps extends SvgProps {
 }
 
 
-export default Logo;
+
